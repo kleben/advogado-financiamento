@@ -1,0 +1,57 @@
+{
+  "source_commit": "a009b89720ce9f6191975a4a64ab8be146005cc4",
+  "method": "Python file size and gzip estimate; not HTTP or browser measurements",
+  "assets": {
+    "dist/index.html": {
+      "bytes": 9955,
+      "gzip_bytes_estimate": 3121
+    },
+    "dist/assets/acordo.webp": {
+      "bytes": 6290,
+      "gzip_bytes_estimate": 6313
+    },
+    "dist/assets/favicon.svg": {
+      "bytes": 226,
+      "gzip_bytes_estimate": 191
+    },
+    "dist/assets/revisional.webp": {
+      "bytes": 5430,
+      "gzip_bytes_estimate": 5453
+    },
+    "dist/assets/contrato.webp": {
+      "bytes": 6926,
+      "gzip_bytes_estimate": 6949
+    },
+    "dist/assets/config.js": {
+      "bytes": 660,
+      "gzip_bytes_estimate": 432
+    },
+    "dist/assets/veiculo.webp": {
+      "bytes": 5180,
+      "gzip_bytes_estimate": 5203
+    },
+    "dist/assets/bootstrap.min.css": {
+      "bytes": 232111,
+      "gzip_bytes_estimate": 30869
+    },
+    "dist/assets/advogado.webp": {
+      "bytes": 11322,
+      "gzip_bytes_estimate": 11345
+    },
+    "dist/assets/styles.css": {
+      "bytes": 13459,
+      "gzip_bytes_estimate": 3660
+    },
+    "dist/assets/app.js": {
+      "bytes": 7314,
+      "gzip_bytes_estimate": 3107
+    },
+    "dist/assets/hero.webp": {
+      "bytes": 25568,
+      "gzip_bytes_estimate": 25596
+    }
+  },
+  "LCP": null,
+  "INP": null,
+  "CLS": null
+}
