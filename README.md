@@ -1,3 +1,13 @@
+## Produção Hostinger — branch main
+
+**Qualquer commit na branch main publica no site real https://advogadofinanciamento.com.br/.**
+
+A hospedagem serve a raiz do repositório. O `index.html` da raiz é a página completa e carrega CSS, JavaScript e imagens de `dist/assets/`. Não remover esse arquivo nem substituir por um redirecionamento para `/dist/`.
+
+Após editar `dist/index.html` ou as configurações SEO, execute `python scripts/prepare_production.py` e inclua os arquivos gerados (`index.html`, `robots.txt`, `sitemap.xml`) no mesmo commit. A geração usa `config/seo-production.json`, remove o noindex de revisão e define a canonical do domínio real. `config/seo.json` e `dist/` continuam compatíveis com a revisão privada no Sites. Não há build automático necessário no servidor: os arquivos gerados são versionados.
+
+Os dados estruturados locais continuam pendentes do endereço completo confirmado. Os arquivos de produção não incluem JSON-LD incompleto.
+
 # Alcântara Advogados — Revisional de Veículos
 
 Página estática responsiva inspirada na referência fornecida. HTML, CSS e JavaScript separados. Bootstrap 5.3.8 incluído localmente, sem dependência do CDN para renderizar a página. Fotos extraídas da referência do usuário.

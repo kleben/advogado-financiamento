@@ -1,0 +1,14 @@
+{
+  "mode": "production",
+  "production_url": "https://advogadofinanciamento.com.br/",
+  "domain_verified": true,
+  "public_release_authorized": true,
+  "search_console_token": null,
+  "business": {
+    "confirmed": false,
+    "name": "Alcântara Advogados",
+    "telephone": "+558589414720",
+    "email": "advogadofortaleza@gmail.com",
+    "address": null
+  }
+}
